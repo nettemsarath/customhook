@@ -5,6 +5,7 @@ import styled from 'styled-components'
 
 const StyledIcon = styled(FaStar)`
     color: "red";
+    height: "50p
 `;
 
 export const Rating = ()=>{
