@@ -120,7 +120,6 @@ function App() {
       throw error;
     }
   };
-  // const { data: posts, loading, error } = UseQuery(AddUser,7);
   const HandleChange = (e) => {
     setCurrentItem({ text: e.target.value, key: Date.now() });
   };
